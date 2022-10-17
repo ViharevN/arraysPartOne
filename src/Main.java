@@ -18,9 +18,26 @@ public class Main {
         System.out.println(arrTwo[1]);
         System.out.println(arrTwo[2]);
 
+        //задание 1.3
 
+        int [] arrFree = {12, 13, 14, 15, 16};
+        System.out.println(arrFree[0]);
+        System.out.println(arrFree[1]);
+        System.out.println(arrFree[2]);
+        System.out.println(arrFree[3]);
+        System.out.println(arrFree[4]);
 
-
+        boolean [] arrFor = new boolean[5];
+        arrFor[0] = true;
+        arrFor[1] = false;
+        arrFor[2] = true;
+        arrFor[3] = true;
+        arrFor[4] = false;
+        System.out.println(arrFor[0]);
+        System.out.println(arrFor[1]);
+        System.out.println(arrFor[2]);
+        System.out.println(arrFor[3]);
+        System.out.println(arrFor[4]);
 
 
     }
