@@ -4,7 +4,7 @@ public class Main {
         //задание 1.1
 
         int [] arr = new int[3];
-        arr[0] = 1;
+        arr[0] = -1;
         arr[1] = 2;
         arr[2] = 3;
         System.out.println(arr[0]);
@@ -54,6 +54,15 @@ public class Main {
         System.out.println(arrFree[4] + ", " + arrFree[3] + ", " + arrFree[2] + arrFree[1] + ", " + arrFree[0]);//третий массив
         System.out.println(arrFor[4] + ", " + arrFor[3] + ", " + arrFor[2] + ", " + arrFor[1] +", " + arrFor[0]);//четвертый массив
 
+        //задание 4.1
+
+        for (int i = 0; i < arr.length; i++) {
+            boolean b = arr[i] % 2 != 0;//вводим дополнительную переменную boolean b, если остаток от деления на 2 не равен 0, добавляем 1
+            if ( b == true) {
+                arr[i]++;
+            }
+            System.out.println(arr[i]);
+        }
 
 
 
