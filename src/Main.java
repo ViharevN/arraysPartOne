@@ -40,5 +40,15 @@ public class Main {
         System.out.println(arrFor[4]);
 
 
+        //задание 2.1
+
+        System.out.println(arr[0]+", "+arr[1] +", "+arr[2]);//первый массив
+        System.out.println(arrTwo[0] + ", "+arrTwo[1] + ", " + arrTwo[2]);//второй массив
+        System.out.println(arrFree[0] + ", " + arrFree[1] + ", " + arrFree[2] + arrFree[3] + ", " + arrFree[4]);//третий массив
+        System.out.println(arrFor[0] + ", " + arrFor[1] + ", " + arrFor[2] + ", " + arrFor[3] +", " + arrFor[4]);//четвертый массив
+
+
+
+
     }
 }
